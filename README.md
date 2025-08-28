@@ -26,16 +26,16 @@ This app lets you add, edit, and delete todos with a modern UI.
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/Simple-React-Todo-App.git
-cd Simple-React-Todo-App ```
+cd Simple-React-Todo-App 
 
 ## Install dependencies:
 
-``` npm install ```
+```npm install```
 
 
 ## Start the development server:
 
-``` npm run dev ```
+npm run dev
 
 
 ## Build for production:
