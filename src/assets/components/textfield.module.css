@@ -1,0 +1,24 @@
+.textfield {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  backdrop-filter: blur(5px);
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+/* Placeholder color */
+.textfield::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* On focus effect */
+.textfield:focus {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.25);
+}

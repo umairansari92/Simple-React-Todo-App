@@ -1,0 +1,12 @@
+.btn {
+  border: 1px solid black;
+  background-color: lightgreen;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  background-color: lightblue;
+}
